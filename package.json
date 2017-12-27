@@ -1,0 +1,32 @@
+{
+  "name": "epub1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "epubjs-rn": "0.0.114",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-fetch-blob": "^0.10.2",
+    "react-native-fs": "^2.1.0-rc.1",
+    "react-native-orientation": "github:8fit/react-native-orientation",
+    "react-native-static-server": "^0.2.4",
+    "react-native-zip-archive": "0.1.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
